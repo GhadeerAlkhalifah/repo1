@@ -230,7 +230,8 @@ def raw_data(df):
     print('will see more statistics')
     
             
-            
+## return data from the main     
+       
 def main():
     while True:
         city, month, day = get_filters()
