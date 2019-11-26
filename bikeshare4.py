@@ -1,3 +1,6 @@
+# This program analyzes rideshare data for several cities 
+# and interactively displays important summary statistics for eachself
+
 import time
 import pandas as pd
 import numpy as np
