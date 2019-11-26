@@ -1,9 +1,15 @@
+<<<<<<< .merge_file_ch2DeU
 # This program analyzes rideshare data for several cities 
 # and interactively displays important summary statistics for eachself
+=======
+## import all necessary packages and functionsimport time
+>>>>>>> .merge_file_DQhsFl
 
 import time
 import pandas as pd
 import numpy as np
+
+## Filenames
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -229,7 +235,8 @@ def raw_data(df):
     print('will see more statistics')
     
             
-            
+## return data from the main     
+       
 def main():
     while True:
         city, month, day = get_filters()
